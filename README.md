@@ -1,1 +1,1 @@
-# TipCalculator
+# BaruchAISWebsite
