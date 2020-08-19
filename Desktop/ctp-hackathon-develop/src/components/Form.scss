@@ -1,0 +1,32 @@
+
+@import '../themes.scss';
+
+.field-container{
+  margin: 2em;
+  display:grid;
+  grid-template-rows: 0fr 0fr;
+  place-items: center;
+
+  .border{
+    width: clamp(40%, 100%, 100%);
+    height: clamp(40%, 100%, 100%);
+    padding: 1em;
+    background: #FFFDFD;
+    border: 0.1em solid $teal;
+    backdrop-filter: blur(0.4em);
+    border-radius: 7em;
+    color: $darkTeal;
+    font-size: 3vw;
+  }
+}
+.form-contain{
+  .button-container{
+    padding-top: 2em;
+  }
+}
+
+::placeholder {
+  color: $darkTeal;
+  opacity: 0.5;
+
+}
